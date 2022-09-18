@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+          
+    <style>                
+        body {
+            /* background-image: url('"C:\Users\suraj\Desktop\shutterstock_342473681.jpg"'); */
+            text-align: center;
+            background-color: skyblue;
+        }
+
+        #createMeet{
+            margin-top: 20px;
+            border: 20px solid #320e0e;
+        }
+
+        h1{
+            margin-top: 200px;
+        }
+
+      
+.button:hover 
+{
+	background-color: #21cfff}
+button {
+	
+	border-radius: 20px;
+	border: 1px solid #191919;
+	background-color: rgb(161, 124, 31);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+        #createMeet{
+     border: 2px;
+     border-color: rgb(161, 159, 10);
+        }
+
+        #body 
+        {
+           background-color: #2313b6;
+        }
+
+        #join
+        {
+           background-color: red;
+        }
+
+        #copy
+        {
+            width: 34px;
+            height: 634px;
+        }
+        
+    </style>
+</head>
+  
+<body class="body">
+
+    <!-- <iframe src="https://calendar.google.com/calendar/embed?src=m7g8bkuh1gnvpvc1sm37i7c5ts%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+  
+    <div id="createMeet">
+   
+    <h1 style="color:green">XtreaMeet</h1>
+      
+    <b> Generate Link</b>
+      
+    <br>
+      
+    <h4>Date Of Meeting:
+      <input type="datetime-local" id="Test_DatetimeLocal">
+      
+    </h4>
+
+<button onclick="myFunction()"><a href="#" >Create Meet Link</a></button><br><br>
+<button class=" join" ><a href="http://127.0.0.1:5504/index.html" >Go to the Link </a></button>
+<button class=" join" onclick="myFunction()"><a href="#" >Copy Link </a> 
+    <script>
+        function myFunction() {
+          alert("Your Link is Copied");
+        }
+        
+        </script>
+</button>
+<!-- <div class="copy">
+    <img height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/512/3138/3138853.png">
+</div> -->
+
+<!-- <script>
+function myFunction() {
+  alert("Your Link is Copied");
+}
+
+</script> -->
+
+</div>
+
+</body>
+  
+</html> 
